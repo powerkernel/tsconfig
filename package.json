@@ -1,26 +1,29 @@
 {
-	"name": "@powerkernel/tsconfig",
-	"version": "1.0.0",
-	"description": "Shared TypeScript config",
-	"license": "MIT",
-	"repository": "powerkernel/tsconfig",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
-	"main": "tsconfig.json",
-	"engines": {
-		"node": ">=18"
-	},
-	"files": [
-		"tsconfig.json"
-	],
-	"keywords": [
-		"tsconfig",
-		"typescript",
-		"ts",
-		"config",
-		"configuration"
-	]
+  "name": "@powerkernel/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript config",
+  "license": "MIT",
+  "repository": "powerkernel/tsconfig",
+  "scripts": {
+    "release": "npx standard-version && git push --follow-tags origin main"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ]
 }
