@@ -1,9 +1,9 @@
 {
-	"name": "@sindresorhus/tsconfig",
-	"version": "3.0.1",
-	"description": "Shared TypeScript config for my projects",
+	"name": "@powerkernel/tsconfig",
+	"version": "1.0.0",
+	"description": "Shared TypeScript config",
 	"license": "MIT",
-	"repository": "sindresorhus/tsconfig",
+	"repository": "powerkernel/tsconfig",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -11,7 +11,7 @@
 	},
 	"main": "tsconfig.json",
 	"engines": {
-		"node": ">=14"
+		"node": ">=18"
 	},
 	"files": [
 		"tsconfig.json"

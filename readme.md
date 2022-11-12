@@ -5,10 +5,10 @@
 ## Install
 
 ```sh
-npm install --save-dev @sindresorhus/tsconfig
+npm install -D @powerkernel/tsconfig
 ```
 
-*This config requires TypeScript 4.7 or later.*
+_This config requires TypeScript 4.7 or later._
 
 ## Usage
 
@@ -16,10 +16,10 @@ npm install --save-dev @sindresorhus/tsconfig
 
 ```json
 {
-	"extends": "@sindresorhus/tsconfig",
-	"compilerOptions": {
-		"outDir": "dist"
-	}
+  "extends": "@powerkernel/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist"
+  }
 }
 ```
 
@@ -27,10 +27,10 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
 
 ```json
 {
-	"extends": "@sindresorhus/tsconfig",
-	"compilerOptions": {
-		"outDir": "dist",
-		"target": "ES2021"
-	}
+  "extends": "@powerkernel/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2021"
+  }
 }
 ```
